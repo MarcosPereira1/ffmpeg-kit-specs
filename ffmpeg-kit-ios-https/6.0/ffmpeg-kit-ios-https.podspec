@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.static_framework = true
   
     s.source = {
-      :http => 'https://github.com/MarcosPereira1/ffmpeg-kit/releases/download/v6.0-patched/FFmpegKit.Flutter.v6.0.3.zip',
+      :http => 'https://github.com/MarcosPereira1/ffmpeg-kit/releases/download/v6.0-patched/ffmpegkit.xcframework.zip',
       :sha256 => '109c12b2fd000acba24388cf26379cf63bce9fc757a0cb490f4bd680941e72d4'
     }
   
