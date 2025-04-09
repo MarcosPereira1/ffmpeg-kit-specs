@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
       :sha256 => '109c12b2fd000acba24388cf26379cf63bce9fc757a0cb490f4bd680941e72d4'
     }
   
-    s.vendored_frameworks = '*.xcframework'
+    s.vendored_frameworks = 'ffmpegkit.xcframework'
   end
   
