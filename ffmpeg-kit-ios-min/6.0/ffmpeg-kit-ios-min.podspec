@@ -15,5 +15,14 @@ Pod::Spec.new do |s|
     :sha256 => '79b1895c3a3e062265eed7fa1e9a330b527c958dfae773e607ed7b06487b7199'
   }  
 
-  s.vendored_frameworks = 'ffmpegkit.xcframework'
+  ss.vendored_frameworks  = [
+    'ffmpegkit.xcframework',
+    'libavcodec.xcframework',
+    'libavdevice.xcframework',
+    'libavfilter.xcframework',
+    'libavformat.xcframework',
+    'libavutil.xcframework',
+    'libswresample.xcframework',
+    'libswscale.xcframework'
+  ]
 end
