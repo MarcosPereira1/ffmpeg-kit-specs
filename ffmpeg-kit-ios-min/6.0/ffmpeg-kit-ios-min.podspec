@@ -2,8 +2,8 @@ Pod::Spec.new do |s|
   s.name             = 'ffmpeg-kit-ios-min'
   s.version          = '6.0'
   s.summary          = 'FFmpegKit MIN variant'
-  s.description      = 'Prebuilt MIN version of FFmpegKit for iOS, sem bibliotecas externas.'
-  s.homepage         = 'https://github.com/MarcosPereira1/ffmpeg-kit'
+  s.description      = 'Prebuilt MIN version of FFmpegKit for iOS.'
+  s.homepage = 'https://github.com/MarcosPereira1/ffmpeg_kit_flutter_min'
   s.license          = { :type => 'LGPL-3.0' }
   s.author           = { 'Fork by MarcosPereira1' => 'marcosvpsousa01@gmail.com' }
   s.platform         = :ios, '12.1'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.source = {
     :http => 'https://github.com/MarcosPereira1/ffmpeg_kit_flutter_min/releases/download/v6.0-patched/ffmpegkit.xcframework.zip',
-    :sha256 => 'eb3fa0a08fa7477ab38a8c43af7061e257f623ee58818f397f2db9aba31ef335'
+    :sha256 => '261da5ad350235edca440bbe50871673b876a0719a5f047665bb19bb70bd1147'
   }  
 
   s.vendored_frameworks = 'ffmpegkit.xcframework'
