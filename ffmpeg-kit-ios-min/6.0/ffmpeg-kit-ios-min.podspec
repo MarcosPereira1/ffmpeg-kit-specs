@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.source = {
     :http => 'https://github.com/MarcosPereira1/ffmpeg_kit_flutter_min/releases/download/v6.0-patched/ffmpegkit.xcframework.zip',
-    :sha256 => 'fd4b29ed9b84d39b78fe6cb404efdfb62fec7a587cf23acd3ff9b49d3a0a3998'
+    :sha256 => '79b1895c3a3e062265eed7fa1e9a330b527c958dfae773e607ed7b06487b7199'
   }  
 
   ss.vendored_frameworks  = [
